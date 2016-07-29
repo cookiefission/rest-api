@@ -14,7 +14,7 @@ uses 'Convention over Configuration' but applies it to RESTful APIs.
 
 - Correct handling of HTTP verbs
 - Rails-style handling of resources
-- [Correct handling of errors](#content-negotiation) (Response format based on
+- [Correct handling of errors](#error-handling) (Response format based on
   `Accept` header with correct `Content-Type` header)
 - [Content negotiation by default](#content-negotiation) (via Accept header)
 - [Discoverability (HATEOAS)](#hateoas)
