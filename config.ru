@@ -1,1 +1,5 @@
-run ->(env) { [200, {}, ['Hello World']] }
+$LOAD_PATH.unshift(File.join(__dir__, 'lib'))
+
+require 'rest_api'
+
+run RestApi::Application
