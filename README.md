@@ -71,3 +71,17 @@ Allowing the server to guide the client to relevant resources means that the
 server can be more easily modified and well-behaved clients will still work
 correctly.
 
+
+## Other Notes
+
+### Connascence
+
+After watching a couple of talks around Kevin Rutherford's work on Connascence
+and coupling, it struck me that Discovery and Content Negotiation play into the
+same idea. By providing links to other resources, the client does not need to
+know about the routes so the connascence of value (i.e the client knowing the
+related routes) is converted to the connascence of name (i.e the client knows
+the name of the route it should be accessing)
+
+This is a slightly half-formed thought at this point but I think there is
+something to it.
