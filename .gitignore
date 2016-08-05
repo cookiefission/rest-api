@@ -1,2 +1,6 @@
+# bundler
 vendor/bundle
 .bundle
+
+# rspec
+spec/examples.txt
